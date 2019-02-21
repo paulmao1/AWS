@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+
+#-------------------------------------------------
+#  File Name:     CountEC2Status
+#  Description :  Get all the EC2 stats changed records.
+#  Usage :    AWS use CloudWatch Event built-in EC2 stats change to trig this lambda
+#  Author :       mobity
+#  date:          2/09/2019
+#------------------------------------------------
 import json
 import boto3
 import time,random
